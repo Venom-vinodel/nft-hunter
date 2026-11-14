@@ -59,7 +59,9 @@ h3 { margin: 3px 0 0; font-size: 19px; letter-spacing: -.045em; }
 .offer-top { display: flex; align-items: start; justify-content: space-between; gap: 12px; }
 .offer-title { margin: 0; font-size: 13px; font-weight: 750; line-height: 1.35; }
 .offer-id { margin-top: 4px; color: var(--muted); font-size: 10px; }
-.price { flex: 0 0 auto; color: #e8ddff; font-size: 15px; font-weight: 800; white-space: nowrap; }
+.price-area { flex: 0 0 auto; text-align: right; }
+.price { color: #e8ddff; font-size: 15px; font-weight: 800; white-space: nowrap; }
+.difference-value { margin-top: 4px; color: var(--green); font-size: 9px; font-weight: 700; white-space: nowrap; }
 .price small { color: #aaa0c6; font-size: 9px; font-weight: 600; }
 .attributes { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 11px; }
 .attribute { padding: 5px 8px; border: 1px solid rgba(180,166,224,.13); border-radius: 8px; color: #bdb6d0; background: rgba(255,255,255,.025); font-size: 9px; }
